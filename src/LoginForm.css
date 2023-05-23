@@ -1,0 +1,38 @@
+.LoginForm{
+  background-color: #FFDB58;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5px 1.5px 6px;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  margin: 0 auto;
+}
+
+.Log{
+  margin-top: -3px;
+}
+
+button{
+  color: aliceblue;
+  background-color: forestgreen;
+  border-radius: 5px;
+  border: none;
+  height: 4vh;
+  cursor: pointer;
+}
+
+input{
+  border: none;
+  height: 4vh;
+  text-indent: 5px;
+}
+
+::placeholder {
+  outline: none;
+  text-indent: 5px;
+  border-style: none;
+
+}
+

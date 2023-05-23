@@ -2,29 +2,25 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 body{
   height: auto;
   background-color:white;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: GOld;
+  background: url(pexels.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-h1 {
-  text-align: center;
+.detail{
+  color: white;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-}
