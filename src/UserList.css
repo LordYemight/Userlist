@@ -16,6 +16,8 @@ body{
   align-items: center;
   background: url(pexels.jpg);
   background-size: cover;
+  background-size: 100vh;
+  background-repeat: no-repeat;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
