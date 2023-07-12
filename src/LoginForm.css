@@ -13,7 +13,9 @@
 .Log{
   margin-top: -3px;
 }
-
+.use{
+  margin-top: -5px;
+}
 button{
   color: aliceblue;
   background-color: forestgreen;
@@ -21,6 +23,7 @@ button{
   border: none;
   height: 4vh;
   cursor: pointer;
+  width: 80%;
 }
 
 input{
@@ -35,4 +38,25 @@ input{
   border-style: none;
 
 }
+@media only screen and (max-width: 767px) {
+  .LoginForm {
+    width: 100%;
+    height: 60vh;
+  }
+  .use{
+    margin-top: -10px;
+  }
 
+  input,
+  button {
+    width: 80%;
+    height: 5vh;
+    border-radius: 5px;
+  }
+  
+  .Log {
+    margin-top: 10px;
+    font-size: 35px;
+    
+  }
+}

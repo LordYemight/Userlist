@@ -22,7 +22,7 @@ const LoginForm = () => {
     <div>
       <form onSubmit={handleSubmit} className="LoginForm">
         <h1 className="Log">Login Form</h1>
-        <p>Username</p>
+        <p className="use">Username</p>
         <input
         type="text"
         value={username}
